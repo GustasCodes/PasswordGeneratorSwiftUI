@@ -27,6 +27,7 @@ struct CustomSecureField: View {
                     .foregroundColor(.white)
                 
                 SecureField("", text: $text)
+                    .padding(.leading, 10)
             }
         }
     }
