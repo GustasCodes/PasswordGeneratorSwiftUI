@@ -17,6 +17,9 @@
 		615B977326B02C3E000AD796 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 615B977226B02C3E000AD796 /* Lottie */; };
 		615B977826B02C89000AD796 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B977726B02C89000AD796 /* LottieView.swift */; };
 		615B978226B02DC3000AD796 /* password.json in Resources */ = {isa = PBXBuildFile; fileRef = 615B978126B02DC3000AD796 /* password.json */; };
+		615B978726B033DA000AD796 /* RacingSansOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 615B978626B033DA000AD796 /* RacingSansOne-Regular.ttf */; };
+		615B978A26B035D0000AD796 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B978926B035D0000AD796 /* CustomTextField.swift */; };
+		615B978D26B035EB000AD796 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B978C26B035EB000AD796 /* CustomSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		615B976D26B02B3E000AD796 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		615B977726B02C89000AD796 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		615B978126B02DC3000AD796 /* password.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = password.json; sourceTree = "<group>"; };
+		615B978626B033DA000AD796 /* RacingSansOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RacingSansOne-Regular.ttf"; sourceTree = "<group>"; };
+		615B978926B035D0000AD796 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		615B978C26B035EB000AD796 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +135,20 @@
 		615B977626B02C60000AD796 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				615B978526B033BB000AD796 /* Fonts */,
 				615B977726B02C89000AD796 /* LottieView.swift */,
+				615B978926B035D0000AD796 /* CustomTextField.swift */,
+				615B978C26B035EB000AD796 /* CustomSecureField.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		615B978526B033BB000AD796 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				615B978626B033DA000AD796 /* RacingSansOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +217,7 @@
 				615B975A26B0298D000AD796 /* Preview Assets.xcassets in Resources */,
 				615B975726B0298D000AD796 /* Assets.xcassets in Resources */,
 				615B978226B02DC3000AD796 /* password.json in Resources */,
+				615B978726B033DA000AD796 /* RacingSansOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615B978D26B035EB000AD796 /* CustomSecureField.swift in Sources */,
+				615B978A26B035D0000AD796 /* CustomTextField.swift in Sources */,
 				615B976726B02B26000AD796 /* LoginView.swift in Sources */,
 				615B975526B0298C000AD796 /* ContentView.swift in Sources */,
 				615B976E26B02B3E000AD796 /* ResetPasswordView.swift in Sources */,
