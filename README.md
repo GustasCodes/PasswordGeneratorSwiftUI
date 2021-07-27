@@ -21,7 +21,7 @@ Gustas Brazaitis - [@gustascodes]
 
 ### TO-DO
 
-- [ ] Authentication UI for the app
+- [X] Authentication UI for the app
 - [ ] User UI
 - [ ] Login/Signup with Firebase
 - [ ] Implement API
